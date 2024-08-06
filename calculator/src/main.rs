@@ -67,5 +67,14 @@ fn main() {
         } else {
             println!("unavailable operator input: {}", &input_str)
         }
+
+        // println!(
+        //     "Result: {}",
+        //     match op.trim() {
+        //         "a" => x + y,
+        //         "s" => x - y,
+        //         _ => -0.0,
+        //     }
+        // )
     }
 }
