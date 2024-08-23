@@ -13,7 +13,7 @@ fn main() {
 
         // println!("{}", input_str.len());
 
-        if input_str.len() != 2 {
+        if input_str.trim().len() != 1 {
             println!("Invalid operator");
             continue;
         }
